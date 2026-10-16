@@ -17,6 +17,7 @@ English edition: open `en.html`. Both language versions share the same visuals, 
 - 学习文档配图：物理海洋学知识框架、海洋时空尺度、Argo 温盐图与地转平衡示意图
 - EOF 分析面板：以热带太平洋海温异常为例，交互展示 EOF 1/EOF 2 的空间模态、主成分时间系数与方差贡献
 - 九个核心问题：以可展开的学习卡片串联混合层、温跃层、温盐结构、淡水收支、盐度、季节性、密度、地转流与 ENSO
+- 参考书目：以《物理海洋学》*Descriptive Physical Oceanography: An Introduction* 为基础阅读材料，串联九问、出门票和 EOF 分析
 - 故事会：南大洋冰间湖的叙事板块，含冰间湖成因、极夜观测影像与本地卫星风格图片资源
 
 ## 本地运行
