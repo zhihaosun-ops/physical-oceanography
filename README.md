@@ -22,6 +22,8 @@ English edition: open `en.html`. Both language versions share the same visuals, 
 
 ## 本地运行
 
+冰间湖科普视频模块：`#polynya-film`，包含本地两分钟 MP4、封面、内嵌中文字幕、可选 WebVTT 字幕轨及 SRT 下载。英文页面提供英文介绍，视频旁白仍为中文。
+
 直接用浏览器打开 `index.html` 即可。也可以使用任意静态服务器：
 
 ```bash
