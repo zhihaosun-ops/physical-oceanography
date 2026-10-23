@@ -49,6 +49,24 @@ Object.entries({
   '参考书目':'References', '物理海洋参考书':'Physical Oceanography Reference Text', '推荐阅读材料 · 从基础概念到海洋观测':'Recommended reading · from core concepts to ocean observation', '《物理海洋学》':'Physical Oceanography', '这本参考书系统介绍物理海洋学的基础框架，涵盖海水性质、海洋环流、海洋波动、海洋混合与海气相互作用等重要主题。它适合用于建立完整的知识结构，并为后续阅读观测资料、研究论文与数据分析结果打下基础。':'This reference text introduces the foundations of physical oceanography, including seawater properties, circulation, waves, mixing, and air–sea interaction. It helps build a coherent knowledge framework for reading observations, research papers, and data-analysis results.', '适合：海洋科学专业学生':'For: ocean-science students', '主题：基础理论 · 观测 · 环流':'Themes: theory · observation · circulation', '查看九个核心问题':'View the nine core questions', '进入学习出门票':'Open the exit ticket', '阅读建议：先从海水性质和大尺度环流入手，再结合本站的九个核心问题与 EOF 分析模块巩固理解。':'Reading suggestion: begin with seawater properties and large-scale circulation, then reinforce your understanding through the Nine Questions and EOF Analysis sections.'
 }).forEach(([source, target]) => translations.set(source, target));
 
+Object.entries({
+  '— 全球输送带 · Thermohaline Circulation':'— Global conveyor · thermohaline circulation',
+  '海表温度':'Sea-surface temperature', '海平面高度':'Sea-level height', '观测剖面':'Observed profiles',
+  'EOF 1 · 赤道太平洋增暖型':'EOF 1 · Equatorial Pacific warming pattern',
+  'PC 1 时间系数 / 1982–2024':'PC 1 time coefficient / 1982–2024',
+  'EOF 2 · 东西反相的纬向位移型':'EOF 2 · East–west dipole displacement pattern',
+  '位移 / 结构变化':'Displacement / structural change',
+  '西部偏冷、东部偏暖的反相结构，提示暖池与对流中心的东西摆动。':'A cool-west, warm-east dipole indicates zonal shifts of the warm pool and convection center.',
+  'PC 2 时间系数 / 1982–2024':'PC 2 time coefficient / 1982–2024',
+  '第二模态补充第一模态未能解释的变化，适合用来观察 ENSO 空间结构的差异。':'The second mode captures variability left unexplained by the first and highlights differences in ENSO spatial structure.',
+  '01 / 这是什么':'01 / WHAT IT IS', '03 / 如何形成':'03 / HOW IT FORMS',
+  'A / 风':'A / WIND', 'B / 海水':'B / OCEAN', 'C / 地形':'C / TOPOGRAPHY',
+  '04 / 从太空看':'04 / FROM SPACE', 'Maud Rise · 冰间湖俯视图':'Maud Rise · polynya from above',
+  '海冰与开阔水道':'Sea ice and open-water channels',
+  'NASA 关于 Maud Rise 冰间湖的说明 ↗':'NASA overview of the Maud Rise polynya ↗',
+  '物理海洋学':'Physical Oceanography'
+}).forEach(([source, target]) => translations.set(source, target));
+
 function translateTextNode(node) {
   const raw = node.nodeValue;
   const text = raw.trim();
